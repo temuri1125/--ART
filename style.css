@@ -373,3 +373,176 @@ body{
 
 /* მეხუთეს დასასრული */
 /* <!-- მეორე გვერდი დასასრული --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* კონტაქტის გვერდი */
+/* კონტაქტის ფორმა დასაწყისი */
+.contact-title{
+  text-align: center;
+  font-family: sans-serif;
+  color: #000;
+}
+
+.contact-title h1{
+  margin:  0 0 30px 0;
+  color: #9534d2;
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2{
+  color: #0970ff;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.contact-form{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input{
+  height: 45px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 50px;
+  text-align: center;
+  width: 200px;
+}
+form .submit:hover{
+  background: #ff5722;
+}
+
+
+
+
+
+
+
+
+/* კონტაქტის ფორმა დასასრული */
+/* აიქონები დასაწყსი */
+#ulc{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 192px;
+  height: 60px;
+}
+#ulc::before{
+  content: "\f1e0";
+  font-family: fontAwesome;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00ff, #8a2be2);
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 2px;
+  transition: 0.5s;
+  z-index: 1;
+}
+#ulc:hover::before{
+  width: 60px;
+}
+
+#ulc li{
+  position: absolute;
+  list-style: none;
+  transition: 1s;
+}
+
+#ulc li a{
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+  margin: 0 2px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: 1s;
+}
+
+#ulc li:nth-child(1) a{
+  background: #3b5999;
+}
+#ulc li:nth-child(2) a{
+  background: #e4405f;
+}
+#ulc li:nth-child(3) a{
+  background: #55acee;
+}
+
+#ulc:hover li:nth-child(1) a{
+  transform: translateX(64px) rotate(360deg);
+}
+#ulc:hover li:nth-child(2) a{
+  transform: translateX(128px) rotate(360deg);
+}
+#ulc:hover li:nth-child(3) a{
+  transform: translateX(192px) rotate(360deg);
+}
+
+.fa{
+  margin-top: 15px;
+}
+
+/* აიქონები დასასრული */
