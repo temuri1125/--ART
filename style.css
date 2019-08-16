@@ -274,17 +274,20 @@ body{
   background-color: #9534d2;
   transition: 0.5s;
   color: #fff;
-
+  cursor: pointer;
 }
-
-
 
 /* ნუმერაცია დასასრული */
 
+/* არჩევანი დასაწყისი */
+.choose1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
 
 
-
-
-
+/* არჩევანი დასასრული */
 
 /* <!-- მეორე გვერდი დასასრული --> */
