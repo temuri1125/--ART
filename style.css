@@ -12,6 +12,10 @@ body{
 }
 
 /* ლოგო */
+.header a img{
+  width: 150;
+  height: 126;
+}
 
 
 /* მენიუ1 */
