@@ -1,7 +1,68 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* ჩემი კოდი */
 body{
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 
 /* მენიუ */
@@ -155,6 +216,75 @@ body{
   width: 50%;
   display: flex;
   justify-content: flex-end;
+  opacity: 1;
 }
 
+
+
 /* <!-- პერსონაჟების დამთავრება --> */
+
+
+
+/* პირველი გვერდის ჰოვერი დასაწყისი */
+
+
+/* პირველი გვერდის ჰოვერი დასასრული */
+
+
+
+
+/* <!-- მეორე გვერდი დასაწყისი --> */
+/* ნუმერაცია დასაწყისი */
+.secondpage{
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+
+.numbers{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#ul3{
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+
+#ul3 li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #dcd4e1;
+}
+
+#ul3 li:hover{
+  background-color: #9534d2;
+  transition: 0.5s;
+  color: #fff;
+
+}
+
+
+
+/* ნუმერაცია დასასრული */
+
+
+
+
+
+
+
+/* <!-- მეორე გვერდი დასასრული --> */
