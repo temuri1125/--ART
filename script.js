@@ -10,3 +10,17 @@ $(document).ready(function() {
 })
 
 // ჩამოსქროლვის დასრულება
+
+// არჩევანის დაწყება
+// $('#burger1').click(function() {
+//   $('.msuqani').show();
+// });
+$(document).ready(function(){
+  $("#burger1").click(function() {
+    $(".person").hide(0);
+    $("#msuqani").show(0);
+  });
+});
+
+
+// არჩევანის დასრულება

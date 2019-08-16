@@ -65,11 +65,19 @@ body{
   padding: 0;
 }
 
+.mainpage{
+  height: calc(100vh - 129px);
+}
+
+#sec1{
+  height: 100vh;
+}
 /* მენიუ */
 .header{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 20px 0px 10px 40px;
+  padding: 0px 0px 10px 40px;
 }
 
 /* ლოგო */
@@ -180,7 +188,7 @@ body{
   border: 5px solid aqua;
   border-radius: 50%;
   padding: 3px;
-  transition: 1s;
+  transition: .5s;
   transform: scale(1);
 }
 /* ავატარების არჩევანი დამთავრება */
@@ -219,21 +227,16 @@ body{
   opacity: 1;
 }
 
-
-
 /* <!-- პერსონაჟების დამთავრება --> */
 
 
-
-/* პირველი გვერდის ჰოვერი დასაწყისი */
-
-
-/* პირველი გვერდის ჰოვერი დასასრული */
 
 
 
 
 /* <!-- მეორე გვერდი დასაწყისი --> */
+/* პირველი */
+
 /* ნუმერაცია დასაწყისი */
 .secondpage{
   display: none;
@@ -284,10 +287,77 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
 }
+
+#msuqani{
+  display: none;
+}
+.magali{
+  display: none;
+}
+
 
 
 /* არჩევანი დასასრული */
 
+
+/* ""შემდეგი"" ღილაკის დასაწყისი */
+.button{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+}
+.button button{
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #dcd4e1;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.button button:hover{
+  background-color: #9534d2;
+  transition: .5s;
+  cursor: pointer;
+}
+
+/* ""შემდეგი"" ღილაკის დასასრული */
+/* პირველის დასასრული */
+
+/* მეორე დასაწყისი */
+.secondchoose{
+  display: flex;
+}
+
+/* მეორე დასასრული */
+
+
+
+/* <!-- მესამეს დასაწყისი --> */
+.thirdchoose{
+  display: flex;
+}
+
+/* <!-- მესამეს დასასრული --> */
+
+
+/* <!-- მეოთხეს დასაწყისი --> */
+.fourchoose{
+  display: flex;
+}
+
+/* <!-- მეოთეს დასასრული --> */
+
+
+/* მეხუთეს დასაწყისი */
+
+.fifthchoose{
+  display: flex;
+}
+
+/* მეხუთეს დასასრული */
 /* <!-- მეორე გვერდი დასასრული --> */
