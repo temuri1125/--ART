@@ -4,18 +4,12 @@ body{
   height: 100vh;
 }
 
-
-
-
-
-
 /* მენიუ */
 .header{
   display: flex;
   justify-content: space-between;
   padding: 20px 0px 10px 40px;
 }
-
 
 /* ლოგო */
 
@@ -96,9 +90,6 @@ body{
 /* მთავარი გვერდი დასასრული */
 
 
-
-
-
 /* ავატარების არჩევანი დაწყება */
 .avatars{
   width: 20%;
@@ -136,7 +127,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
 }
 
 .text h1{
@@ -161,7 +152,5 @@ body{
   display: flex;
   justify-content: flex-end;
 }
-
-
 
 /* <!-- პერსონაჟების დამთავრება --> */
