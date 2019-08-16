@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+
+
+
+
+
+/* მენიუ */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 10px 40px;
+}
+
+
+/* ლოგო */
+
+
+/* მენიუ1 */
+#ul1{
+  display: flex;
+	margin-right: 20px;
+	/* transform: translate(-50%,-50%); */
+}
+#ul1 #li1{
+  list-style: none;
+	font-family: "BPG Banner Caps", sans-serif;
+}
+
+#ul1 #li1 a{
+  position: relative;
+  display: block;
+	text-align: center;
+  margin: 0 25px;
+	font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0970ff;
+  font-weight: 600;
+	transition: .5s;
+	padding: 5px 10px;
+
+}
+#ul1 #li1 a:hover{
+	color: #fff;
+	background: #b309ff
+}
+
+#ul1 #li1 a::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+	border: 3px solid #b309ff;
+	border-width: 0 0 3px 3px;
+  opacity: 0;
+  transition: .5s;
+}
+
+#ul1 #li1 a:hover::before{
+	bottom: -10px;
+	left: -10px;
+	opacity: 1;
+}
+#ul1 #li1 a::after{
+	content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+	border: 3px solid #b309ff;
+	border-width: 3px 3px 0 0;
+  opacity: 0;
+  transition: .5s;
+}
+
+#ul1 #li1 a:hover::after{
+	top: -10px;
+  right: -10px;
+	opacity: 1;
+}
+
+
+
+/* მთავარი გვერდი დასაწყისი */
+.mainpage{
+  display: flex;
+}
+/* მთავარი გვერდი დასასრული */
+
+
+
+
+
+/* ავატარების არჩევანი დაწყება */
+.avatars{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ul2{
+  list-style: none;
+  padding-top: 20px;
+}
+
+#ul2 li{
+  padding: 10px;
+}
+
+#ul2 li img{
+  border-radius: 50%;
+}
+
+#ul2 li img:hover{
+  border: 5px solid aqua;
+  border-radius: 50%;
+  padding: 3px;
+  transition: 1s;
+  transform: scale(1);
+}
+/* ავატარების არჩევანი დამთავრება */
+
+/* ტექსტის სტილი დასაწყისი */
+.text{
+  width: 40%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.text h1{
+  text-align: center;
+  font-size: 40px;
+  color: #b309ff;
+}
+
+.text h6{
+  text-align: center;
+  font-size: 16px;
+  color: #0970ff;
+}
+
+/* ტექსტის სტილი დასასრული */
+
+
+
+/* <!-- პერსონაჟების დაწყება --> */
+.back{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/* <!-- პერსონაჟების დამთავრება --> */
