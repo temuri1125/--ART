@@ -15,6 +15,9 @@ $(document).ready(function() {
 // $('#burger1').click(function() {
 //   $('.msuqani').show();
 // });
+
+
+
 $(document).ready(function(){
   $("#burger1").click(function() {
     $(".person").hide(0);
