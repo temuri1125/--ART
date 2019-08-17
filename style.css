@@ -198,19 +198,21 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+	white-space: pre;
 }
 
 .text h1{
   text-align: center;
   font-size: 40px;
   color: #b309ff;
+	white-space: pre;
 }
 
 .text h6{
   text-align: center;
   font-size: 16px;
   color: #0970ff;
+	white-space: pre;
 }
 
 /* ტექსტის სტილი დასასრული */
