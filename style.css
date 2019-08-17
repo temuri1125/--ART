@@ -363,6 +363,12 @@ body{
   display: flex;
 }
 
+#mtagif{
+	display: none;
+}
+#sigaretigif{
+	display: none;
+}
 /* <!-- მესამეს დასასრული --> */
 
 
@@ -389,6 +395,10 @@ body{
 }
 
 #wyaligif{
+	display: none;
+}
+
+#ludigif{
 	display: none;
 }
 
