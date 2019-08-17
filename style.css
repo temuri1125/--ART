@@ -479,10 +479,12 @@ body{
 }
 
 .abtext h4{
+	word-spacing: 2px;
 	font-family: sans-serif;
   font-size: 18px;
   color: #0970ff;
   margin: 0 0 0 0;
+	white-space: pre;
 }
 
 
@@ -576,6 +578,7 @@ form .submit{
 }
 form .submit:hover{
   background: #ff5722;
+	cursor: pointer;
 }
 
 
