@@ -481,10 +481,10 @@ body{
 .abtext h4{
 	word-spacing: 2px;
 	font-family: sans-serif;
+	white-space: pre;
   font-size: 18px;
   color: #0970ff;
   margin: 0 0 0 0;
-	white-space: pre;
 }
 
 
