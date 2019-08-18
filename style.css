@@ -156,7 +156,7 @@ body{
 /* მთავარი გვერდი დასაწყისი */
 .mainpage{
   display: flex;
-  height: calc(100vh - 129px);
+  height: calc(100vh - 128px);
 }
 /* მთავარი გვერდი დასასრული */
 
@@ -551,12 +551,16 @@ a{
 
 /* ჩვენ შესახებ გვერდი */
 /* დასაწყისი */
+.aboutmain{
+	display: flex;
+}
+
 .abtext{
 	flex-direction: column;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 100%;
+	width: 60%;
 	height: calc(100vh - 136px);
 }
 
@@ -592,17 +596,27 @@ a{
 	margin: 0 0 10px 0;
 }
 
+.abimg2{
+	align-items: flex-end;
+	display: flex;
+	width: 30%;
+	justify-content: flex-end
+}
 
 
+.abimg1{
+	display: flex;
+	align-items: flex-end;
+}
 
 
+.header a img{
+	height: 115px;
+}
 
-
-
-
-
-
-
+.aboutmain{
+	height: calc(100vh - 125px);
+}
 
 
 
